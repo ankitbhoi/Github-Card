@@ -128,7 +128,8 @@ function darkModeProperties() {
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
   darkMode = true;
   console.log("darkmode changed to " + darkMode);
-  localStorage.setItem("dark-mode", true);  console.log("setting dark mode to false");
+  localStorage.setItem("dark-mode", true);  
+  console.log("setting dark mode to false");
 
   console.log("setting dark mode to true");
 
